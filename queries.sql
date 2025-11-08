@@ -1,3 +1,4 @@
+-- Test data seeding
 INSERT INTO "users" ("username", "email", "password") VALUES ('Noemi', "noemi@gmail.com", 'password');
 
 INSERT INTO "recipes" ("name", "duration", "description", "author_id")
@@ -17,6 +18,7 @@ INSERT INTO "prices" ("ingredient_id", "price", "currency", "author_id")
 VALUES ('1', '35', 'Euro', '1'), ('2', '43', 'Euro', '1'),
 ('3', '16', 'Euro', '1'), ('4', '112', 'Euro', '1');
 
+-- Test data updating
 UPDATE "grams" SET "grams_per_person" = '250' WHERE "recipe_id" = '2' AND "ingredient_id" = '3';
 UPDATE "grams" SET "grams_per_person" = '100' WHERE "recipe_id" = '2' AND "ingredient_id" = '4';
 UPDATE "prices" SET "provider_id" = '1' WHERE "id" IN ('1', '2', '3', '4');
@@ -39,4 +41,5 @@ FROM "cost_time_protein_fat"
 GROUP BY "recipe"
 ORDER BY "cost", "protein" DESC, "fat", "duration";
 
+-- Test user deleting
 DELETE FROM "users" WHERE "username" = 'Noemi';

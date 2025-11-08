@@ -6,6 +6,35 @@
 -- DROP TABLE IF EXISTS "prices";
 -- DROP VIEW IF EXISTS "cost_time_protein_fat";
 
+
+
+
+
+
+
+
+
+
+--          CS50 final project by Noémie Baudouin
+
+--          Project's name: "Students kitchen"
+--          https://github.com/noemirtil/
+--          edX username: 2508_4BEG
+--          Barcelona, Spain - Saturday, November 8, 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -- Represent every user registered in the platform
 -- Count the number of its contributions to show in their profile
 CREATE TABLE "users" (

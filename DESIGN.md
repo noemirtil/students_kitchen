@@ -1,8 +1,8 @@
 # Design Document
 
-By Noemie Baudouin
+By Noémie Baudouin
 
-Video overview: <URL HERE>
+Video overview: [Students Kitchen](https://youtu.be/E-9U2HkT-IU)
 
 
 ## Scope
